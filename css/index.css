@@ -210,7 +210,7 @@ html {
     top: 50%;
     /*background: red;*/
     margin: 2.79rem 0 0 -1.2rem;
-    display: none;
+    /*display: none;*/
     /*opacity: 1;*/
 }
 
@@ -222,10 +222,9 @@ html {
     -webkit-animation: bounceInRight 1s linear 0s both;
     animation: bounceInRight 1s linear 0s both;
 }
-.slide1 .intro,.slide1 .name{
-    display: block;
-    /*opacity: 1;*/
-    transition: all 1s;
+#page1 .intro,#page1 .name{
+    -webkit-animation: jello 1s linear 0s both;
+    animation: jello 1s linear 0s both;
 }
 
 
